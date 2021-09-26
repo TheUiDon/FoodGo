@@ -1,0 +1,237 @@
+/* =============== Theme Details =============== */
+/*
+Theme Name: FoodGo
+Theme URI: https://biadedigital.com/
+Author: George 
+Author URI: https://biadedigital.com/
+Description: FoodGO is designed built with love by Biade Digital with the help of @iris on twitter for the web design.
+Tags: Food, 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, FoodGO, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+/* =============== Theme Details =============== */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ============== Scroll bar ============== */
+body::-webkit-scrollbar {
+    width: 05px;       
+}
+
+body::-webkit-scrollbar-track {
+    background: black;  
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #198754;   
+    border-radius: 20px;       
+    border: 3px solid #198754; 
+}
+
+/* ============== End of Scroll bar ============== */
+
+/* ============== Body ============== */
+
+body{
+    color: white!important;
+}
+
+/* ============== End of Body ============== */
+
+
+/* ============== Navbar ============== */
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #198754!important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff!important;
+}
+
+/* ============== End of Navbar ============== */
+
+/* ============== Custom Button ============== */
+
+.btn-group-lg>.btn, .btn-lg {
+    border-radius: .1rem;
+    border-end-start-radius: 25px;
+    border-start-end-radius: 25px;
+}
+
+/* ============== End of Custom Button ============== */
+
+/* ============== Custom color ============== */
+
+.bg-black {
+    background-color: black;
+}
+
+/* ============== End of Custom color ============== */
+
+
+/* ============== Slider ============== */
+
+.slider-image {
+    height: 100px;
+    width: 600px;
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+/* ============== End of Slider ============== */
+
+/* ============== Carousel ============== */
+
+.carousel-indicators {
+    bottom: -50px!important;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 05px!important;
+    height: 05px!important;
+    border-radius: 50%!important;
+}
+
+/* ============== End of Carousel ============== */
+
+/* ============== Custom Card ============== */
+
+.card-img-top {
+    height: 150px!important;
+    width: 100%!important;
+}
+
+/* ============== End of Custom Card ============== */
+
+/* ============== Footer ============== */
+
+.footer-icon{
+    height: 30px;
+    width: auto;
+}
+
+.bottom-footer-icon{
+    height: 60px;
+    width: auto;
+}
+
+.footer  a:hover{
+    text-decoration: underline!important;
+    color: #198754!important;
+    font-size: 18px!important;
+}
+
+/* ============== End of Footer ============== */
+
+/* ============== Media Quries ============== */
+
+@media only screen and (max-width: 1200px){
+
+    .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 700;
+    }
+
+    .card .small, small {
+        font-size: .7em;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+        margin-bottom: .5rem!important;
+    }
+
+    .carousel-item .d-lg-none {
+        display: inline-block!important;
+    }
+}
+
+@media only screen and (max-width: 987px){
+    .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+    }
+
+    .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 602px){
+    .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 30%!important;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+    }
+
+    .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+    .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 45%!important;
+        margin-bottom: .5rem!important;
+    }
+
+    .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 424px){
+    .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 45%;
+        margin-bottom: .5rem!important;
+    }
+
+    .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .card .small, small {
+        font-size: .7em;
+    }
+}
+
+/* ============== End of Media Quries ============== */
