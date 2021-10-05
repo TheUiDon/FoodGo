@@ -19,6 +19,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin: 0px;
 }
 
+a{
+    text-decoration: none!important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb),
+    var(--bs-text-opacity))!important;
+
+}
+
 /* ============== Scroll bar ============== */
 body::-webkit-scrollbar {
     width: 05px;       
@@ -40,6 +48,7 @@ body::-webkit-scrollbar-thumb {
 
 body{
     color: white!important;
+
 }
 
 /* ============== End of Body ============== */
@@ -112,6 +121,188 @@ body{
 
 /* ============== End of Custom Card ============== */
 
+
+.accordion-item {
+    background-color: rgba(var(--bs-dark-rgb),
+    var(--bs-bg-opacity))!important;;
+    border: 1.5px solid rgb(193, 197, 195);
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1.5px solid rgb(193, 197, 195); 
+}
+
+.accordion-button {
+    color: #c1c5c3;
+    background-color: rgba(var(--bs-dark-rgb),
+    var(--bs-bg-opacity))!important;;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #198754;
+    background-color: rgb(33, 37, 41);
+}
+
+.accordion-button::after {
+    background-image: url('/assets/icon/down-chevron-white.svg');
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('/assets/icon/down-chevron.svg');
+    transform: rotate(-180deg);
+}
+
+.map {
+    width: 350px;
+    height: 250px;
+    background-color: #198754;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* ================ Sign In ================= */
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+  
+.form-signin .checkbox {
+    font-weight: 400;
+}
+  
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+  
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-signin .form-floating .form-control {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.form-signin .form-floating .form-control {
+    background-color: #212529;
+    color: #ffffff;
+}
+
+.form-signin .form-floating .form-control:-webkit-autofill {
+    background-color: #212529!important;
+    color: #ffffff!important;
+}
+
+
+.checkbox-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+input:checked {
+    background-color: #198754;
+    border-color: #198754;
+    border-radius: .1rem;
+    border-end-start-radius: 25px;
+    border-start-end-radius: 25px;
+}
+
+.img-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-menu {
+    width: 870px;
+    height: 340px;
+    background-color: black;
+}
+
+.page-link {
+    background-color: #212529;
+    border: 1px solid #c1c5c3;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff!important;
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.form-control {
+    background-color: #212529;
+    color: #fff;
+}
+
+.list-group-item {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid #c1c5c3bd;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .dropend .dropdown-toggle::after {
+        float: right;
+        margin-top: 5px;
+    }
+}
+
+
+@media all and (min-width: 992px) {
+	.list-group .dropend .dropdown-menu{ 
+        display: none; 
+    }
+	.list-group .dropend:hover .list-group-item{
+
+    }
+	.list-group .dropend:hover .dropdown-menu{ 
+        display: block;
+        position: absolute;
+        inset: 0px auto auto 0px;
+        margin: 0px;
+        transform: translate(138px, 0px);
+        margin-left: 30px;
+
+    }
+	.list-group .dropend .dropdown-menu{
+        margin-top:0; 
+    }
+}
+
+
+/* ========================================= */
+
+
 /* ============== Footer ============== */
 
 .footer-icon{
@@ -136,19 +327,19 @@ body{
 
 @media only screen and (max-width: 1200px){
 
-    .card .h5, h5 {
+    .home-slider .card .h5, h5 {
         font-size: 1.0rem;
         font-weight: 700;
     }
 
-    .card .small, small {
+    .home-slider .card .small, small {
         font-size: .7em;
     }
 }
 
 
 @media only screen and (max-width: 992px){
-    .carousel-item .col-6 {
+    .home-slider .carousel-item .col-6 {
         flex: 0 0 auto;
         width: 25%;
         margin-right: .5rem!important;
@@ -156,80 +347,80 @@ body{
         margin-bottom: .5rem!important;
     }
 
-    .carousel-item .d-lg-none {
+    .home-slider .carousel-item .d-lg-none {
         display: inline-block!important;
     }
 }
 
 @media only screen and (max-width: 987px){
-    .carousel-item .col-6 {
+    .home-slider .carousel-item .col-6 {
         flex: 0 0 auto;
         width: 25%;
         margin-right: .5rem!important;
         margin-top: 0rem!important;
     }
 
-    .card .h5, h5 {
+    .home-slider .card .h5, h5 {
         font-size: 1.0rem;
         font-weight: 600;
     }
 
-    .card .small, small {
+    .home-slider .card .small, small {
         font-size: .7em;
     }
 
 }
 
 @media only screen and (max-width: 602px){
-    .carousel-item .col-6 {
+    .home-slider .carousel-item .col-6 {
         flex: 0 0 auto;
         width: 30%!important;
         margin-right: .5rem!important;
         margin-top: 0rem!important;
     }
 
-    .card .h5, h5 {
+    .home-slider .card .h5, h5 {
         font-size: 1.0rem;
         font-weight: 600;
     }
 
-    .card .small, small {
+    .home-slider .card .small, small {
         font-size: .7em;
     }
 
 }
 
 @media only screen and (max-width: 510px){
-    .carousel-item .col-6 {
+    .home-slider .carousel-item .col-6 {
         flex: 0 0 auto;
         width: 45%!important;
         margin-bottom: .5rem!important;
     }
 
-    .card .h5, h5 {
+    .home-slider .card .h5, h5 {
         font-size: 1.0rem;
         font-weight: 600;
     }
 
-    .card .small, small {
+    .home-slider .card .small, small {
         font-size: .7em;
     }
 
 }
 
 @media only screen and (max-width: 424px){
-    .carousel-item .col-6 {
+    .home-slider .carousel-item .col-6 {
         flex: 0 0 auto;
         width: 45%;
         margin-bottom: .5rem!important;
     }
 
-    .card .h5, h5 {
+    .home-slider .card .h5, h5 {
         font-size: 1.0rem;
         font-weight: 600;
     }
 
-    .card .small, small {
+    .home-slider .card .small, small {
         font-size: .7em;
     }
 }

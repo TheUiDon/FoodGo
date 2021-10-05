@@ -6,61 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon Icon -->
-    <link rel="icon" type="image/png" href="/assets/images/foodGO-icon.png">
+    <link rel="icon" type="image/png" href="assets/images/foodGO-icon.png">
 
     <!-- Bootstrap CDN CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"
+    >
 
     <!-- Bootstrap CSS Offline -->
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 
     <!-- Bootstrap Icon CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
     <!-- Custom Css -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <title>Food Go</title>
   </head>
   <body class="bg-dark text-light">
-
-    <!-- Navbar -->
     
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <a class="navbar-brand h1 text-light" href="#">Food<span class="text-success">go.</span></a>
+        <!-- Navbar Brand -->
+        <a class="navbar-brand h1 text-light" href="#">
+          Food
+          <span class="text-success">
+            go.
+          </span>
+        </a>
+        <!-- Collapse Toggle -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- Navbar menu -->
         <div class="navbar-collapse collapse"  id="navbarNav">
+          <!-- Navbar List -->
           <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0 mx-lg-auto">
+            <!-- Home Navbar -->
             <li class="nav-item col-6 col-lg-auto">
               <a class="nav-link active" aria-current="page" href="#">
                 Home
               </a>
             </li>
+            <!-- Menu Navbar -->
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/menu.html">
                 Menu
               </a>
             </li>
+            <!-- About Us Navbar -->
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="/about.html">
                 About Us
               </a>
             </li>
+            <!-- Contact Navbar -->
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link">
+              <a class="nav-link" href="/contact.html">
                 Contact
               </a>
             </li>
           </ul>
+
+          <!-- Line Breaker For md screen -->
           <hr class="text-white-50 d-md-block my-2">
+
           <!-- icon Navbar-->
           <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0">
+            <!-- My Account -->
             <li class="nav-item col-6 col-lg-auto">
               <a href="#" class="nav-link">
                 <i class="bi bi-person"></i>
@@ -69,6 +85,8 @@
                 </small>
               </a>
             </li>
+
+            <!-- My cart -->
             <li class="nav-item col-6 col-lg-auto">
               <a href="#" class="nav-link">
                 <i class="bi bi-bag-check"></i>
@@ -79,7 +97,6 @@
             </li>
           </ul>
         </div>
-
       </div>
     </nav>
 
@@ -87,7 +104,7 @@
     <section class="container py-5 hero">
       <div class="row">
         <div class="col-12 col-lg-6 d-lg-none d-md-flex d-sm-flex">
-          <img src="/assets/images/foodbg-removebg-preview.png" class="img-fluid" alt="Food-banner">
+          <img src="assets/images/foodbg-removebg-preview.png" class="img-fluid" alt="Food-banner">
         </div>
 
         <div class="col-12 col-lg-6 mt-5 ">
@@ -102,10 +119,11 @@
           <button class="btn btn-success btn-lg">
             Order Now <i class="bi bi-arrow-right"></i>
           </button>
+          
         </div>
 
         <div class="col-12 col-lg-6  d-lg-flex d-none">
-          <img src="/assets/images/foodbg-removebg-preview.png" alt="Food-banner" class="img-fluid pe-5">
+          <img src="assets/images/foodbg-removebg-preview.png" alt="Food-banner" class="img-fluid pe-5">
         </div>
       </div>
     </section>
@@ -115,7 +133,7 @@
     <section class="container py-5">
       <div class="row">
         <div class="col-12 col-lg-6">
-          <img src="/assets/images/foodbg2-removebg-preview.png" class="img-fluid" alt="Favourite-Meal">
+          <img src="assets/images/foodbg2-removebg-preview.png" class="img-fluid" alt="Favourite-Meal">
         </div>
         <div class="col-12 col-lg-6">
           <h2>
@@ -133,7 +151,6 @@
 
 
     <!-- The Best Taste -->
-
     <section class="my-5 container-fluid">
       <div class="text-center fw-bold">
         <small class="text-success">
@@ -144,7 +161,7 @@
         </h4>
       </div>
       <!-- Slider -->
-      <div class="my-5 ms-lg-5 ps-lg-5">
+      <div class="home-slider my-5 ms-lg-5 ps-lg-5">
           
         <div id="product-slider" class="carousel slide carousel-multi-item" data-ride="carousel">
           <!-- Carousel Indicators -->
@@ -162,7 +179,7 @@
               <!-- Card One -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Spagehetti 
@@ -183,7 +200,7 @@
               <!-- Card Two -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3  pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Burger & Fries
@@ -202,7 +219,7 @@
               <!-- Card Three -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-2 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Fish
@@ -221,7 +238,7 @@
               <!-- Card Four -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Chicken
@@ -240,7 +257,7 @@
               <!-- Card Five -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef & Fries
@@ -259,7 +276,7 @@
               <!-- Card Six -->
               <div class="d-lg-none bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef Steak
@@ -284,7 +301,7 @@
               <!-- Card One -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Spagehetti 
@@ -305,7 +322,7 @@
               <!-- Card Two -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3  pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Burger & Fries
@@ -324,7 +341,7 @@
               <!-- Card Three -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-2 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Fish
@@ -343,7 +360,7 @@
               <!-- Card Four -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Chicken
@@ -362,7 +379,7 @@
               <!-- Card Five -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef & Fries
@@ -381,7 +398,7 @@
               <!-- Card Six -->
               <div class="d-lg-none bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef Steak
@@ -407,7 +424,7 @@
               <!-- Card One -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Spagehetti 
@@ -428,7 +445,7 @@
               <!-- Card Two -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-md-3  pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mike-PxJ9zkM2wdA-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Burger & Fries
@@ -447,7 +464,7 @@
               <!-- Card Three -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-2 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/alex-teixeira-N8-bMqUMS8g-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Fish
@@ -466,7 +483,7 @@
               <!-- Card Four -->
               <div class="bg-black col-lg-2 col-md-3 col-6 my-2 my-lg-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/mark-deyoung-mjcJ0FFgdWI-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Grilled Chicken
@@ -485,7 +502,7 @@
               <!-- Card Five -->
               <div class="bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 me-2 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef & Fries
@@ -504,7 +521,7 @@
               <!-- Card Six -->
               <div class="d-lg-none bg-black col-lg-2 col-md-3 col-6 me-0 me-md-3 pe-0 ps-0 border border-success rounded shadow float-start">
                 <div class="card bg-black">
-                  <img src="/assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                  <img src="assets/images/tim-toomey-pe9dvM1rQkM-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
                   <div class="card-body pb-0 mb-0">
                     <h5 class="card-title mb-0">
                       Beef Steak
@@ -537,37 +554,46 @@
           <div class="row">
             <!-- Footer Brand -->
             <div class="col-12 col-lg-4">
-                <div class="d-flex">
-                  <img src="/assets/images/foodGO-icon.png"
+              <!-- Footer Brand icon plus name-->
+              <div class="d-flex">
+                  <img src="assets/images/foodGO-icon.png"
                     alt="Footer-Logo" class="footer-icon img-fluid">
                   <span class="fs-5">
                     Food Go
                   </span>
-                </div>
-                <ul class="text-muted small list-unstyled">
+              </div>
+
+              <!-- Footer List Brand Details -->
+              <ul class="text-muted small list-unstyled">
+                  <!-- Brand About -->
                   <li class="mb-3">
                     Designed and built with love by <a href="https://biadedigital.com/" target="_blank" class="text-decoration-none text-muted">Biade Digital</a>
                      with the help of <a href="https://twitter.com/lanorks/status/1435687488354459651?s=19" target="_blank" class="text-decoration-none text-muted">@iris on twitter</a> 
                      for the web design.
-                  </li>
+                  </li><!-- /Brand About -->
+                  
+                  <!-- Mailing List Section -->
                   <li class="mb-2">
                     <span>
                       Join Our Mailing list:
                     </span>
+                    <!-- Form -->
                     <div class="d-flex">
+                      <!-- Form Input -->
                       <div class="col-8">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                       </div>
+                      <!-- Form Submit Button -->
                       <div class="col-2 ms-1 pt-1 mt-4">
                         <button type="submit" class="btn btn-success">
-                          Submit</button>
+                          Submit
+                        </button>
                       </div>
-                    </div>
-                      
-                  </li>
-                </ul>
+                    </div>  
+                  </li><!-- /Mailing List Section -->
+              </ul>
             </div>
 
             <!-- Footer List One -->
@@ -592,7 +618,7 @@
                     <a href="#" class="nav-link text-muted">Menu 5</a>
                   </li>
                 </ul>
-            </div>
+            </div><!-- /Footer List One -->
 
             <!-- Footer List Two -->
             <div class="col-6 col-lg-2 mb-3">
@@ -616,7 +642,7 @@
                     <a href="#" class="nav-link text-muted">Menu 5</a>
                   </li>
                 </ul>
-            </div>
+            </div><!-- /Footer List Two -->
 
             <!-- Footer List Three -->
             <div class="col-6 col-lg-2 mb-3">
@@ -640,7 +666,7 @@
                     <a href="#" class="nav-link text-muted">Menu 5</a>
                   </li>
                 </ul>
-            </div>
+            </div><!-- /Footer List Three -->
 
             <!-- Footer List Four -->
             <div class="col-6 col-lg-2 mb-3">
@@ -664,7 +690,7 @@
                     <a href="#" class="nav-link text-muted">Menu 5</a>
                   </li>
                 </ul>
-            </div>
+            </div><!-- /Footer List Four -->
           </div>
 
           <!-- Line Breaker -->
@@ -674,7 +700,7 @@
           <div class="row text-center">
             <!-- Footer Icon & Tc's -->
             <div class="col-12 col-md-6 col-lg-4 mb-3 ">
-              <img src="/assets/images/foodGO-icon.png"
+              <img src="assets/images/foodGO-icon.png"
                alt="Footer-Logo" class="bottom-footer-icon img-fluid">
               <span class="px-2">|</span>
               <a href="#" class="text-decoration-none text-muted px-2">Terms of use</a>
@@ -684,27 +710,32 @@
             <!-- Copyright  -->
             <div class="col-12 col-md-6 col-lg-4 mb-3 align-self-center">
               <span>© 2021 FoodGO. <a href="https://www.biadedigital.com/" target="_blank" class="text-decoration-none text-light">Theme by BiadeDigital</a></span>
-            </div>
+            </div><!-- Copyright  -->
 
             <!-- Social Icon -->
             <div class="col-12  col-lg-4 mb-3 align-self-center">
                 
+              <!-- Twitter Icon -->
               <a href="#" class="link-dark text-decoration-none">
                 <i class="bi bi-twitter text-light mx-1"></i>
               </a>
                 
+              <!-- Facebook Icon -->
               <a href="#" class="link-dark text-decoration-none">
                 <i class="bi bi-facebook text-light mx-1"></i>
               </a>
                 
+              <!-- Likendin Icon -->
               <a href="#" class="link-dark text-decoration-none">
                 <i class="bi bi-linkedin text-light mx-1"></i>
               </a>
                 
+              <!-- Instagram Icon -->
               <a href="#" class="link-dark text-decoration-none">
                 <i class="bi bi-instagram text-light mx-1"></i>
               </a>
                 
+              <!-- Youtube Icon -->
               <a href="#" class="link-dark text-decoration-none">
                 <i class="bi bi-youtube text-light mx-1"></i>
               </a>
@@ -713,8 +744,9 @@
               <a href="#" class="bottom-0 end-0 p-5">
                 <i class="bi bi-arrow-up-circle text-success h3"></i>
               </a>
-            </div>
-          </div>
+            </div><!-- Social Icon -->
+
+          </div><!-- /Bottom Footer -->
         </div>
       </footer>
     </section>
@@ -726,7 +758,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
   
     <!-- Bootstrap JS Offline -->
-    <!-- <script src="/assets/js/bootstrap.min.js"></script> -->
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
 
     <!-- 
       Note You can't use two Bootsrap JS Kindly comment one out or delete 

@@ -1,0 +1,1286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="/assets/images/foodGO-icon.png">
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"
+    >
+
+    <!-- Bootstrap CSS Offline -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <title>Food Go</title>
+  </head>
+  <body class="bg-dark text-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand h1 text-light" href="#">
+          Food
+          <span class="text-success">
+            go.
+          </span>
+        </a>
+        <!-- Collapse Toggle -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar menu -->
+        <div class="navbar-collapse collapse"  id="navbarNav">
+          <!-- Navbar List -->
+          <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0 mx-lg-auto">
+            <!-- Home Navbar -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a class="nav-link"  href="/index.html">
+                Home
+              </a>
+            </li>
+            <!-- Menu Navbar -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a class="nav-link active" aria-current="page" href="#">
+                Menu
+              </a>
+            </li>
+            <!-- About Us Navbar -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a class="nav-link" href="/about.html">
+                About Us
+              </a>
+            </li>
+            <!-- Contact Navbar -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a class="nav-link" href="/contact.html">
+                Contact
+              </a>
+            </li>
+          </ul>
+
+          <!-- Line Breaker For md screen -->
+          <hr class="text-white-50 d-md-block my-2">
+
+          <!-- icon Navbar-->
+          <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0">
+            <!-- My Account -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a href="/account.html" class="nav-link">
+                <i class="bi bi-person"></i>
+                <small class="d-lg-none">
+                  MyAccount
+                </small>
+              </a>
+            </li>
+
+            <!-- My cart -->
+            <li class="nav-item col-6 col-lg-auto">
+              <a href="/cart.html" class="nav-link">
+                <i class="bi bi-bag-check"></i>
+                <small class="d-lg-none">
+                  Cart
+                </small>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- Banner plus Navbar section  -->
+      <section class="py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-2">
+              <aside>
+                <div class="list-group d-none d-lg-block">
+                  <div class="dropend rounded-top pt-1">
+                    <button class="list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                     Vegan Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rounded-0 dropend">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Barbecue Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropend rounded-0">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Seafood Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rounded-0 dropend">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Snack Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rounded-0 dropend">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      African Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rounded-0 dropend">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Chinese Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="dropend rounded-0">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Italian Meal
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="rounded-bottom dropend">
+                    <button class=" list-group-item list-group-item-action dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Top Picks's
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 1
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 2
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">
+                          Menu 3
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </aside>
+            </div>
+            <div class="col-10">
+              <div id="carouselMenuIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselMenuIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselMenuIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselMenuIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded border border-success">
+                  <div class="carousel-item active">
+                    <img src="" class="banner-menu d-block w-100 img-fluid img-cover" alt="Banner 1">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                      <button class="btn btn-success btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" class="banner-menu d-block w-100 img-fluid img-cover" alt="Banner 2">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                      <button class="btn btn-success btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="" class="banner-menu d-block w-100 img-fluid img-cover" alt="Banner 3">
+                    <div class="carousel-caption d-none d-md-block text-left">
+                      <h5>First slide label</h5>
+                      <p>Some representative placeholder content for the first slide.</p>
+                      <button class="btn btn-success btn-lg">Order Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMenuIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselMenuIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container py-5">
+
+        <div class="row">
+        
+
+          <aside class="col-2">
+            <div class="accordion" id="filterAccordion">
+
+              <div class="accordion-item">
+                <h2 class="accordion-header " id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Search
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#filterAccordion">
+                  <div class="accordion-body small">
+                    <form class="pb-3">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-append">
+                          <button class="btn btn-success" type="button">
+                            <i class="bi bi-search text-light mx-1"></i>
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                    
+                    <ul class="list-menu">
+                      <li>
+                        <a href="#">
+                          Vegan
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Barbecue
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Sea Food
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Snack
+                        </a>
+                        </li>
+                      <li>
+                        <a href="#">
+                          Afican
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Chinese
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          Italian
+                        </a>
+                      </li>
+                    </ul> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Price range
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#filterAccordion">
+                  <div class="accordion-body small">
+                    <input type="range" class="custom-range" min="0" max="100" name="">
+                    <div class="d-flex form-row">
+                      <div class="form-group col-md-6">
+                        <label>Min</label>
+                        <input class="form-control" placeholder="$0" type="number">
+                      </div>
+                      <div class="form-group ms-2 text-right col-md-6">
+                        <label>Max</label>
+                        <input class="form-control" placeholder="$100" type="number">
+                      </div>
+                    </div> <!-- form-row.// -->
+                    <button class="mt-2 btn d-block btn-success">Apply</button>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </aside>
+
+          <div class="col-10">
+            <div class="row">
+
+              <div class="form-inline">
+                <div class="row">
+                  <div class="col-8">
+                    24 Items found
+                  </div>
+                  <div class="col-2 pb-2 ms-auto">
+                    <select class="form-select">
+                      <option selected>Latest items</option>
+                      <option value="1">Trending</option>
+                      <option value="2">Most Popular</option>
+                      <option value="3">Cheapest</option>
+                    </select>
+                  </div>
+                  <div class="col-2 ">
+                    <div class="btn-group">
+                      <a href="#" class="btn btn-outline-secondary" data-toggle="tooltip" title="" data-original-title="List view"> 
+                        <i class="bi bi-list"></i>
+                      </a>
+                      <a href="#" class="btn  btn-outline-secondary active" data-toggle="tooltip" title="" data-original-title="Grid view"> 
+                        <i class="bi bi-grid-3x3-gap-fill"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <hr class="text-light-50" >
+
+              <div class="col-3">
+                
+                <!-- Card One -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-3">
+                
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-2">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Second Slide -->
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Slide -->
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+               <!-- Fourth Slide -->
+
+               <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-2 mt-4">
+                <!-- Card Two -->
+                <div class="bg-black border border-success rounded shadow float-start">
+                  <div class="card bg-black">
+                    <img src="assets/images/farhad-ibrahimzade-JocD18QpAkY-unsplash.jpg" class="card-img-top w-100 h-50 img-fluid" alt="Card-Image">
+                    <div class="card-body pb-0 mb-0">
+                      <h5 class="card-title mb-0">
+                        Spagehetti 
+                      </h5>
+                      <small class="card-text text-muted pt-0 mt-0">
+                        shrimp, sauce
+                      </small>
+                      <div class="d-flex mt-2 mb-0 pb-0">
+                        <h5 class="card-text">
+                          $10.00
+                        </h5>
+                        <i class="bi bi-bag-plus ms-auto h5"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div>
+              <nav class="mt-4" aria-label="Page navigation sample">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      Previous
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">
+                      1
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      2
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      3
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">
+                      Next
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+
+      
+  
+
+    </main>
+
+    <!--Footer-->
+    <section class="pt-5">
+      <footer class="footer">
+        <div class="container mt-3">
+          <div class="row">
+            <!-- Footer Brand -->
+            <div class="col-12 col-lg-4">
+              <!-- Footer Brand icon plus name-->
+              <div class="d-flex">
+                  <img src="assets/images/foodGO-icon.png"
+                    alt="Footer-Logo" class="footer-icon img-fluid">
+                  <span class="fs-5">
+                    Food Go
+                  </span>
+              </div>
+
+              <!-- Footer List Brand Details -->
+              <ul class="text-muted small list-unstyled">
+                  <!-- Brand About -->
+                  <li class="mb-3">
+                    Designed and built with love by <a href="https://biadedigital.com/" target="_blank" class="text-decoration-none text-muted">Biade Digital</a>
+                     with the help of <a href="https://twitter.com/lanorks/status/1435687488354459651?s=19" target="_blank" class="text-decoration-none text-muted">@iris on twitter</a> 
+                     for the web design.
+                  </li><!-- /Brand About -->
+                  
+                  <!-- Mailing List Section -->
+                  <li class="mb-2">
+                    <span>
+                      Join Our Mailing list:
+                    </span>
+                    <!-- Form -->
+                    <div class="d-flex">
+                      <!-- Form Input -->
+                      <div class="col-8">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                      <!-- Form Submit Button -->
+                      <div class="col-2 ms-1 pt-1 mt-4">
+                        <button type="submit" class="btn btn-success">
+                          Submit
+                        </button>
+                      </div>
+                    </div>  
+                  </li><!-- /Mailing List Section -->
+              </ul>
+            </div>
+
+            <!-- Footer List One -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Vegan
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List One -->
+
+            <!-- Footer List Two -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Barbecue
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Two -->
+
+            <!-- Footer List Three -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Sea Foods
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Three -->
+
+            <!-- Footer List Four -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Drinks
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Four -->
+          </div>
+
+          <!-- Line Breaker -->
+          <hr class="text-dark-50">
+
+          <!-- Bottom Footer -->
+          <div class="row text-center">
+            <!-- Footer Icon & Tc's -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3 ">
+              <img src="assets/images/foodGO-icon.png"
+               alt="Footer-Logo" class="bottom-footer-icon img-fluid">
+              <span class="px-2">|</span>
+              <a href="#" class="text-decoration-none text-muted px-2">Terms of use</a>
+              <a href="#" class="text-decoration-none text-muted px-2">Privacy policy</a>
+            </div>
+
+            <!-- Copyright  -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3 align-self-center">
+              <span>© 2021 FoodGO. <a href="https://www.biadedigital.com/" target="_blank" class="text-decoration-none text-light">Theme by BiadeDigital</a></span>
+            </div><!-- Copyright  -->
+
+            <!-- Social Icon -->
+            <div class="col-12  col-lg-4 mb-3 align-self-center">
+                
+              <!-- Twitter Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-twitter text-light mx-1"></i>
+              </a>
+                
+              <!-- Facebook Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-facebook text-light mx-1"></i>
+              </a>
+                
+              <!-- Likendin Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-linkedin text-light mx-1"></i>
+              </a>
+                
+              <!-- Instagram Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-instagram text-light mx-1"></i>
+              </a>
+                
+              <!-- Youtube Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-youtube text-light mx-1"></i>
+              </a>
+                 
+              <!-- Scroll Up -->
+              <a href="#" class="bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle text-success h3"></i>
+              </a>
+            </div><!-- Social Icon -->
+
+          </div><!-- /Bottom Footer -->
+        </div>
+      </footer>
+    </section>
+   
+
+    <!-- Bootstrap CDN JS -->
+
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    
+
+    <!-- Bootstrap JS Offline -->
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+
+
+    <!-- 
+      Note You can't use two Bootsrap JS Kindly comment one out or delete 
+      If your pc is not connected to internet kinly use the last Script 
+      Failure to do that the navbar won't close after opening on md devices below
+    -->
+
+  </body>
+</html>

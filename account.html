@@ -1,0 +1,377 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon Icon -->
+    <link rel="icon" type="image/png" href="/assets/images/foodGO-icon.png">
+
+    <!-- Bootstrap CDN CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"
+    >
+
+    <!-- Bootstrap CSS Offline -->
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="/style.css">
+
+    <title>Food Go</title>
+  </head>
+  <body class="bg-dark text-light">
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <!-- Navbar Brand -->
+          <a class="navbar-brand h1 text-light" href="#">
+            Food
+            <span class="text-success">
+              go.
+            </span>
+          </a>
+          <!-- Collapse Toggle -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Navbar menu -->
+          <div class="navbar-collapse collapse"  id="navbarNav">
+            <!-- Navbar List -->
+            <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0 mx-lg-auto">
+              <!-- Home Navbar -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link"  href="/index.html">
+                  Home
+                </a>
+              </li>
+              <!-- Menu Navbar -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link" href="/menu.html">
+                  Menu
+                </a>
+              </li>
+              <!-- About Us Navbar -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link" href="/about.html">
+                  About Us
+                </a>
+              </li>
+              <!-- Contact Navbar -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a class="nav-link" href="/contact.html">
+                  Contact
+                </a>
+              </li>
+            </ul>
+  
+            <!-- Line Breaker For md screen -->
+            <hr class="text-white-50 d-md-block my-2">
+  
+            <!-- icon Navbar-->
+            <ul class="navbar-nav flex-row flex-wrap pt-2 py-md-0">
+              <!-- My Account -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a href="#" aria-current="page" class="nav-link active">
+                  <i class="bi bi-person"></i>
+                  <small class="d-lg-none">
+                    MyAccount
+                  </small>
+                </a>
+              </li>
+  
+              <!-- My cart -->
+              <li class="nav-item col-6 col-lg-auto">
+                <a href="/cart.html" class="nav-link">
+                  <i class="bi bi-bag-check"></i>
+                  <small class="d-lg-none">
+                    Cart
+                  </small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+
+    <main class="form-signin mt-5">
+      <form class="text-center container">
+        <img class="mb-4" src="assets/images/foodGO-icon.png" alt="" width="72" height="57">
+        <h1 class="h3 mb-3 fw-normal text-success text-start">
+          Sign in
+        </h1>
+    
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        <div class=" d-flex checkbox mb-3">
+          <label>
+            <input type="checkbox" class="form-check-input" value="remember-me"> Remember me
+          </label>
+          <p class="ms-4">
+            <a href="#" class="text-success text-decoration-none">
+              Forgot Password?
+            </a>
+          </p>
+        </div>
+        <button class="w-100 btn btn-lg btn-success" type="submit">
+          Sign in
+        </button>
+        <div class="mt-2">
+          <p>
+            Don't have account?
+            <a href="register.html" class="text-success text-decoration-none">
+              Sign Up
+            </a>
+          </p>
+        </div>
+        <p class="mt-5 mb-3 text-muted">
+          &copy; 2017–2021
+        </p>
+      </form>
+
+      
+    </main>
+    
+
+
+
+
+
+    <!--Footer-->
+    <section class="pt-5">
+      <footer class="footer">
+        <div class="container mt-3">
+          <div class="row">
+            <!-- Footer Brand -->
+            <div class="col-12 col-lg-4">
+              <!-- Footer Brand icon plus name-->
+              <div class="d-flex">
+                  <img src="assets/images/foodGO-icon.png"
+                    alt="Footer-Logo" class="footer-icon img-fluid">
+                  <span class="fs-5">
+                    Food Go
+                  </span>
+              </div>
+
+              <!-- Footer List Brand Details -->
+              <ul class="text-muted small list-unstyled">
+                  <!-- Brand About -->
+                  <li class="mb-3">
+                    Designed and built with love by <a href="https://biadedigital.com/" target="_blank" class="text-decoration-none text-muted">Biade Digital</a>
+                     with the help of <a href="https://twitter.com/lanorks/status/1435687488354459651?s=19" target="_blank" class="text-decoration-none text-muted">@iris on twitter</a> 
+                     for the web design.
+                  </li><!-- /Brand About -->
+                  
+                  <!-- Mailing List Section -->
+                  <li class="mb-2">
+                    <span>
+                      Join Our Mailing list:
+                    </span>
+                    <!-- Form -->
+                    <div class="d-flex">
+                      <!-- Form Input -->
+                      <div class="col-8">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div class="invalid-feedback">
+                          Your email is required.
+                        </div>
+                      </div>
+                      <!-- Form Submit Button -->
+                      <div class="col-2 ms-1 pt-1 mt-4">
+                        <button type="submit" class="btn btn-success">
+                          Submit
+                        </button>
+                      </div>
+                    </div>  
+                  </li><!-- /Mailing List Section -->
+              </ul>
+            </div>
+
+            <!-- Footer List One -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Vegan
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List One -->
+
+            <!-- Footer List Two -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Barbecue
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Two -->
+
+            <!-- Footer List Three -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Sea Foods
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Three -->
+
+            <!-- Footer List Four -->
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>
+                  Drinks
+                </h5>
+                <ul class="text-decoration-none navbar-nav">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 1</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 2</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 4</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link text-muted">Menu 5</a>
+                  </li>
+                </ul>
+            </div><!-- /Footer List Four -->
+          </div>
+
+          <!-- Line Breaker -->
+          <hr class="text-dark-50">
+
+          <!-- Bottom Footer -->
+          <div class="row text-center">
+            <!-- Footer Icon & Tc's -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3 ">
+              <img src="assets/images/foodGO-icon.png"
+               alt="Footer-Logo" class="bottom-footer-icon img-fluid">
+              <span class="px-2">|</span>
+              <a href="#" class="text-decoration-none text-muted px-2">Terms of use</a>
+              <a href="#" class="text-decoration-none text-muted px-2">Privacy policy</a>
+            </div>
+
+            <!-- Copyright  -->
+            <div class="col-12 col-md-6 col-lg-4 mb-3 align-self-center">
+              <span>© 2021 FoodGO. <a href="https://www.biadedigital.com/" target="_blank" class="text-decoration-none text-light">Theme by BiadeDigital</a></span>
+            </div><!-- Copyright  -->
+
+            <!-- Social Icon -->
+            <div class="col-12  col-lg-4 mb-3 align-self-center">
+                
+              <!-- Twitter Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-twitter text-light mx-1"></i>
+              </a>
+                
+              <!-- Facebook Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-facebook text-light mx-1"></i>
+              </a>
+                
+              <!-- Likendin Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-linkedin text-light mx-1"></i>
+              </a>
+                
+              <!-- Instagram Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-instagram text-light mx-1"></i>
+              </a>
+                
+              <!-- Youtube Icon -->
+              <a href="#" class="link-dark text-decoration-none">
+                <i class="bi bi-youtube text-light mx-1"></i>
+              </a>
+                 
+              <!-- Scroll Up -->
+              <a href="#" class="bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle text-success h3"></i>
+              </a>
+            </div><!-- Social Icon -->
+
+          </div><!-- /Bottom Footer -->
+        </div>
+      </footer>
+    </section>
+   
+
+    <!-- Bootstrap CDN JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    <script src="assets/js/form-validation.js"></script>
+    <!-- Bootstrap JS Offline -->
+    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+
+    <!-- 
+      Note You can't use two Bootsrap JS Kindly comment one out or delete 
+      If your pc is not connected to internet kinly use the last Script 
+      Failure to do that the navbar won't close after opening on md devices below
+    -->
+
+  </body>
+</html>
