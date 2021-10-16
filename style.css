@@ -144,11 +144,11 @@ body{
 }
 
 .accordion-button::after {
-    background-image: url('assets/icon/down-chevron-white.svg');
+    background-image: url(assets/icon/down-chevron-white.svg);
 }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('assets/icon/down-chevron.svg');
+    background-image: url(assets/icon/down-chevron.svg);
     transform: rotate(-180deg);
 }
 
