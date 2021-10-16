@@ -5,4 +5,4 @@ Description: FoodGO is designed built with love by Biade Digital with the help o
 ## Theme Details
 Developer: George
 Design: Home Page Only @iris on twitter
-Author URI: https://biadedigital.com/
+Author URL: https://biadedigital.com/
