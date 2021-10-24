@@ -1,0 +1,35 @@
+.list-group-item {
+    color: #fff;
+    background-color: #212529;
+    border: 1px solid #c1c5c3bd;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .dropend .dropdown-toggle::after {
+        float: right;
+        margin-top: 5px;
+    }
+}
+
+
+@media all and (min-width: 992px) {
+	.list-group .dropend .dropdown-menu{ 
+        display: none; 
+    }
+	.list-group .dropend:hover .list-group-item{
+        
+    }
+	.list-group .dropend:hover .dropdown-menu{ 
+        display: block;
+        position: absolute;
+        inset: 0px auto auto 0px;
+        margin: 0px;
+        transform: translate(138px, 0px);
+        margin-left: 30px;
+
+    }
+	.list-group .dropend .dropdown-menu{
+        margin-top:0; 
+    }
+}

@@ -1,0 +1,62 @@
+/* =============== Theme Details =============== */
+/*
+Theme Name: FoodGo
+Theme URI: https://biadedigital.com/
+Author: George 
+Author URI: https://biadedigital.com/
+Description: FoodGO is designed built with love by Biade Digital with the help of @iris on twitter for the web design.
+Tags: Food, 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+This theme, FoodGO, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* main.css */
+
+/* ============== Vendors Css ============== */
+
+@import 'vendors/bootstrap.min.css';
+
+/* ============== End of Vendors Css ============== */
+
+/* ============== Base Css ============== */
+
+@import 'base/reset.css';
+
+/* ============== End of Base Css ============== */
+
+/* ============== Layout Css ============== */
+
+@import 'layout/navbar.css';
+@import 'layout/scrollbar.css';
+@import 'layout/footer.css';
+
+/* ============== End of Layout Css ============== */
+
+/* ============== Components Css ============== */
+
+@import 'components/accordion.css';
+@import 'components/banner.css';
+@import 'components/button.css';
+@import 'components/card.css';
+@import 'components/carousel.css';
+@import 'components/color.css';
+@import 'components/form.css';
+@import 'components/listgroup.css';
+@import 'components/page.css';
+
+/* ============== End of Components Css ============== */
+
+/* ============== Pages Css ============== */
+
+@import 'pages/home.css';
+@import 'pages/menu.css';
+@import 'pages/contact.css';
+@import 'pages/login.css';
+
+/* ============== End of Pages Css ============== */
+
+
+

@@ -1,0 +1,29 @@
+.accordion-item {
+    background-color: rgba(var(--bs-dark-rgb),
+    var(--bs-bg-opacity))!important;;
+    border: 1.5px solid rgb(193, 197, 195);
+}
+
+.accordion-flush .accordion-item:last-child {
+    border-bottom: 1.5px solid rgb(193, 197, 195); 
+}
+
+.accordion-button {
+    color: #c1c5c3;
+    background-color: rgba(var(--bs-dark-rgb),
+    var(--bs-bg-opacity))!important;;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #198754;
+    background-color: rgb(33, 37, 41);
+}
+
+.accordion-button::after {
+    background-image: url(assets/icon/down-chevron-white.svg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(assets/icon/down-chevron.svg);
+    transform: rotate(-180deg);
+}

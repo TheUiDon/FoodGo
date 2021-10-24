@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1200px){
+
+    .home-slider .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 700;
+    }
+
+    .home-slider .card .small, small {
+        font-size: .7em;
+    }
+}
+
+
+@media only screen and (max-width: 992px){
+    .home-slider .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+        margin-bottom: .5rem!important;
+    }
+
+    .home-slider .carousel-item .d-lg-none {
+        display: inline-block!important;
+    }
+}
+
+@media only screen and (max-width: 987px){
+    .home-slider .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 25%;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+    }
+
+    .home-slider .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .home-slider .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 602px){
+    .home-slider .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 30%!important;
+        margin-right: .5rem!important;
+        margin-top: 0rem!important;
+    }
+
+    .home-slider .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .home-slider .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 510px){
+    .home-slider .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 45%!important;
+        margin-bottom: .5rem!important;
+    }
+
+    .home-slider .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+xZ
+    .home-slider .card .small, small {
+        font-size: .7em;
+    }
+
+}
+
+@media only screen and (max-width: 424px){
+    .home-slider .carousel-item .col-6 {
+        flex: 0 0 auto;
+        width: 45%;
+        margin-bottom: .5rem!important;
+    }
+
+    .home-slider .card .h5, h5 {
+        font-size: 1.0rem;
+        font-weight: 600;
+    }
+
+    .home-slider .card .small, small {
+        font-size: .7em;
+    }
+}

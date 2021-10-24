@@ -1,0 +1,15 @@
+.footer-icon{
+    height: 30px;
+    width: auto;
+}
+
+.bottom-footer-icon{
+    height: 60px;
+    width: auto;
+}
+
+.footer  a:hover{
+    text-decoration: underline!important;
+    color: #198754!important;
+    font-size: 18px!important;
+}

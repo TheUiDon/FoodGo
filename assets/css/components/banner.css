@@ -1,0 +1,11 @@
+.img-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-menu {
+    width: 870px;
+    height: 340px;
+    background-color: black;
+}

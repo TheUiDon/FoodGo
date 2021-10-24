@@ -1,0 +1,22 @@
+.form-check-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.form-control {
+    background-color: #212529;
+    color: #fff;
+}
+
+.checkbox-input:checked {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+input:checked {
+    background-color: #198754;
+    border-color: #198754;
+    border-radius: .1rem;
+    border-end-start-radius: 25px;
+    border-start-end-radius: 25px;
+}

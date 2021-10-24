@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none!important;
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-success-rgb),
+    var(--bs-text-opacity))!important;
+}
+
+body{
+    color: white!important;
+}
